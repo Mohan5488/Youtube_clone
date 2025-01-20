@@ -1,0 +1,12 @@
+.play-container{
+    display: flex;
+    padding: 70px 2% 20px 2%;
+    background: #f9f9f9;
+}
+
+@media(max-width:900px){
+    .play-container{
+        padding: 70px 5%;
+        display: block;
+    }
+}

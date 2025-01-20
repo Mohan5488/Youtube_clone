@@ -1,0 +1,53 @@
+.sidebar{
+    width: 15%;
+    position: fixed;
+    height: 100vh;
+    background-color: #fff;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 80px;
+    border: 1px solid #ccc;
+}
+.shortcut-links img{
+    width: 20px;
+    margin-right: 20px;
+}
+.side-link{
+    display: flex;
+    align-items:center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.sidebar hr{
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    width: 85%;
+}
+.subscribed-list h3{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+.subscribed-list img{
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.small-side-bar{
+    width: 5%;
+}
+.small-side-bar p{
+    display: none;
+}
+.small-side-bar h3{
+    display: none;
+}
+.small-side-bar hr{
+    margin-bottom: 20px;
+}
+@media (max-width:900px){
+    .sidebar{
+        display: none;
+    }
+}
