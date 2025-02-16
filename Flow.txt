@@ -1,0 +1,17 @@
+# Flow Chart
+1. Here in Home.jsx contains SideBar and Feed 
+2. IN Home create a state that category
+3. Send both category and setCategory to Sidebar as props
+4. In SideBar each shortcutLinks given some category number and make that when we click on any link that setCategory to category
+5. That changes the cateogry in Home.jsx
+6. Send the cateogry to Feed.jsx
+7. There on chnage on category using useEffect fetch the videos realted to particular category clciked in sidebar and show them on the Feed section.
+8. And also made that when we click on any image of video i set to redirect to the /video/${d.snippet.categoryId}/${d.id}
+9. In routes <Route path='/video/:videoId/:id' element = {<Video />} /> when we click any image it redirect to video.jsx
+10. From the url using useParams get the videoId and video values into Video.jsx
+11. send to playVideo.jsx both Params 
+12. In video.jsx there i need to fetch 3 kinds of data when videos id changes then i need to fetch 3 kinds of data.
+    12.1 1st video statistics like views, descriptions
+    12.2 2nd video channel data channel name, subscriberCount, likes and share useEffect
+    12.3 3rd video Comments like comments usernames, profiles, date and time etc
+13. Next recommanded video here it send the videoId as the props and get more related videos of the same videoId
