@@ -51,8 +51,8 @@ This project is a video streaming web application built with **React.js**. It fe
 ## 📌 Setup Instructions  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/video-streaming-app.git
-   cd video-streaming-app
+   git clone https://github.com/Mohan5488/Youtube_clone.git
+   cd Youtube_clone
    ```  
 2. Install dependencies:  
    ```bash
